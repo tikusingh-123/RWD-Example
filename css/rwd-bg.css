@@ -1,0 +1,15 @@
+.banner {
+    background: url(https://preview.redd.it/0ykl07yngl631.jpg?width=1920&format=pjpg&auto=webp&s=d406bbabbe7d755e382e56ccf8d326bc22b2c33d) no-repeat scroll 50% #642DD2;
+    width: 960px;
+    height: 400px;
+    margin: 0 auto;
+    color: #EAEB2B;
+    font-size: larger;
+}
+
+@media all and (max-width: 800px) {
+    .banner {
+        width: 100%;
+        background-size: contain;
+    }
+}
